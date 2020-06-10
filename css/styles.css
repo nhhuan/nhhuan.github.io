@@ -1,0 +1,61 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+h1, h2, h3, h5{
+  font-family: "Lobster", cursive; }
+
+h2 {
+  color: #3046C5; }
+
+header h2 {
+  color: #CEC8FF; }
+
+.site-footer {
+  background-image: linear-gradient( rgb(68, 43, 11), rgb(71, 27, 19));
+  padding: 20px 0; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: url("../img/coffee-jumbotron1.jpg");
+  background-size: cover;
+  height: 90%;   
+  color: white; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.navbar {
+  background-color: rgb(68, 43, 11); }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #5637dd; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
