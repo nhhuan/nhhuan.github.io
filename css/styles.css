@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(248, 238, 206);
+  background-color: lightyellow;
   font-family: "Open Sans", sans-serif; }
 
-h1, h2, h3, h5{
+h1, h2, h3 {
   font-family: "Lobster", cursive; }
 
 h2 {
@@ -12,14 +12,15 @@ header h2 {
   color: #CEC8FF; }
 
 .site-footer {
-  background-image: linear-gradient( rgb(68, 43, 11), rgb(71, 27, 19));
+  background-color:  rgb(99, 44, 22);
   padding: 20px 0; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
   background-image: url("../img/header-coffee.jpg");
-  background-size: cover;   
+  background-size: cover;
+
   color: white; }
 
 .row-content {
@@ -28,7 +29,7 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background-color: rgb(68, 43, 11); }
+  background-color: rgb(99, 44, 22); }
 
 .tab-content {
   border: 1px solid #DDD;
@@ -39,15 +40,13 @@ header h2 {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid rgb(68, 43, 11); } 
+  border: solid  rgb(99, 44, 22); }
 
 .carousel-indicators li {
   width: 15px;
   height: 15px;
   border-radius: 100%;
-}
-
-
+  }
 #carouselButton {
   position: absolute;
   right: 0;
@@ -60,6 +59,3 @@ header h2 {
 #reserveModal .modal-header {
   background-color: #17A2B8;
   color: white; }
-
-
-  
